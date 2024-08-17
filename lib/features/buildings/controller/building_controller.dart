@@ -41,7 +41,6 @@ class BuildingController extends GetxController{
   update();
 }
 
- 
 
 
 //showDialog(BuildContext context){

@@ -8,6 +8,7 @@ import 'package:realstateAdmin/features/users/views/brokers_view.dart';
 import 'package:realstateAdmin/features/users/views/users_view.dart';
 
 import '../buildings/views/add_buildings_view.dart';
+import '../buildings/views/new_item_view.dart';
 
 class AdminView extends StatelessWidget {
   const AdminView({super.key});
@@ -22,7 +23,8 @@ class AdminView extends StatelessWidget {
             const SizedBox(height: 30,),
             CustomButton(text: 'اضف مبني جديد ', onPressed:(){
 
-              Get.to(const AddBuildingsView());
+Get.to(const ItemView());
+              //Get.to(const AddBuildingsView());
               
             }),
             const SizedBox(height: 20,),
