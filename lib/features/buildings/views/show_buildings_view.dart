@@ -61,6 +61,7 @@ class _ShowBuildingsViewState extends State<ShowBuildingsView> {
                         // fontWeight:FontWeight.w800
                         // ),
                         // ),
+                        (imageList.isEmpty)?Image.asset('assets/images/logo.jpeg'):
                         SizedBox(
                             width:MediaQuery.of(context).size.width*0.8,
                             child: Image.network(
